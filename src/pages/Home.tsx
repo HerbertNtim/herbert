@@ -16,28 +16,25 @@ export function Home() {
   return (
     <div>
       <PageMeta
-        title="Leonardo Maldonado · Senior Full-Stack Engineer"
-        description="Senior full-stack engineer based in Valencia, Spain. Previously sole engineer on Spaceship's domain search at Namecheap (3M+ domains sold). Creator of 33 JavaScript Concepts (66K+ stars). Currently building Strait."
+        title="Herbert Ntim · Full-Stack Engineer"
+        description="Full-Stack Engineer based in Kumasi, Ghana. Building full-stack applications with TypeScript, React, Next.js, and Python. Exploring data science and machine learning."
       />
       <section className="mb-24 sm:mb-32">
         <p className="mb-4 font-mono text-[12px] tracking-[0.25em] text-fg-tertiary uppercase">
-          Senior Full-Stack Engineer · Valencia, Spain
+          Full-Stack Engineer · Kumasi, Ghana
         </p>
         <h1 className="text-[clamp(2.5rem,6vw,4rem)] leading-[1.05] font-semibold tracking-[-0.035em] text-fg">
-          Leonardo
+          Herbert
           <br />
-          Maldonado
+          Ntim
         </h1>
-        <p className="mt-8 max-w-[480px] text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px]">
-          Senior full-stack engineer working with TypeScript, React, Node.js, and
-          Go. Previously the sole engineer on Spaceship&apos;s{" "}
-          <TextLink href="https://www.spaceship.com/domain-search/">
-            domain search
-          </TextLink>{" "}
-          at <TextLink href="https://www.namecheap.com">Namecheap</TextLink>,
-          helping sell 3M+ domains. Currently building{" "}
-          <TextLink href="https://strait.dev">Strait</TextLink>, an agentic
-          workflow orchestration platform.
+        <p className="mt-8 max-w-120 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px]">
+          Software engineer building full-stack applications with TypeScript,
+          React, Next.js, and Python. Previously worked with the KNUST College
+          of Engineering Examination Office, building automation tools and web
+          applications supporting 10,000+ students. Currently expanding into
+          data science and machine learning while building practical software
+          projects.
         </p>
       </section>
 
@@ -79,7 +76,7 @@ export function Home() {
       <section className="mb-20 sm:mb-28">
         <SectionLabel>Writing</SectionLabel>
         <div>
-          <p className="mb-8 max-w-[440px] text-[15px] leading-[1.75] text-fg-secondary">
+          <p className="mb-8 max-w-110 text-[15px] leading-[1.75] text-fg-secondary">
             90+ articles published across JavaScript, React, TypeScript,
             Node.js, GraphQL, and modern web development. Over 1 million views
             total.
@@ -138,7 +135,7 @@ export function Home() {
       <section>
         <SectionLabel>Contact</SectionLabel>
         <div>
-          <p className="mb-8 max-w-[400px] text-[15px] leading-[1.75] text-fg-secondary">
+          <p className="mb-8 max-w-100 text-[15px] leading-[1.75] text-fg-secondary">
             Have something in mind? Reach out.
           </p>
           <div className="flex flex-col gap-4">
