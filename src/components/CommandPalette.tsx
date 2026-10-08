@@ -70,14 +70,14 @@ const navigation: { label: string; href: string; icon: PaletteIcon }[] = [
 ];
 
 const social: { label: string; href: string; icon: PaletteIcon }[] = [
-  { label: "GitHub", href: "https://github.com/leonardomso", icon: GitHubIcon },
+  { label: "GitHub", href: "https://github.com/HerbertNtim", icon: GitHubIcon },
   { label: "X (Twitter)", href: "https://x.com/leonardomso", icon: ArrowUpRight },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/leonardomso/",
+    href: "https://www.linkedin.com/in/hntim/",
     icon: LinkedInIcon,
   },
-  { label: "Email", href: "mailto:leonardomso11@gmail.com", icon: Mail },
+  { label: "Email", href: "mailto:herbertntim2023@gmail.com", icon: Mail },
 ];
 
 const itemClass =
@@ -127,7 +127,7 @@ export function CommandPalette() {
     <div
       aria-label="Command palette"
       aria-modal="true"
-      className="no-print fixed inset-0 z-[10001] flex items-start justify-center pt-[20vh]"
+      className="no-print fixed inset-0 z-10001 flex items-start justify-center pt-[20vh]"
       onClick={() => setOpen(false)}
       onKeyDown={(event) => {
         if (event.key === "Escape") setOpen(false);
@@ -136,7 +136,7 @@ export function CommandPalette() {
     >
       <div aria-hidden="true" className="fixed inset-0 bg-black/50 backdrop-blur-sm" />
       <div
-        className="relative z-10 mx-4 w-full max-w-[520px] overflow-hidden rounded-xl border border-surface-border bg-surface-low shadow-2xl"
+        className="relative z-10 mx-4 w-full max-w-130 overflow-hidden rounded-xl border border-surface-border bg-surface-low shadow-2xl"
         onClick={(event) => event.stopPropagation()}
         onKeyDown={(event) => {
           if (event.key === "Escape") {
@@ -158,7 +158,7 @@ export function CommandPalette() {
             className="w-full border-b border-surface-border bg-transparent px-4 py-3 text-[15px] text-fg outline-none placeholder:text-fg-disabled"
             placeholder="Type a command or search..."
           />
-          <Command.List className="max-h-[320px] overflow-y-auto p-2">
+          <Command.List className="max-h-80 overflow-y-auto p-2">
             <Command.Empty className="px-3 py-6 text-center text-[13px] text-fg-tertiary">
               No results found.
             </Command.Empty>

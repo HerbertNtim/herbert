@@ -21,18 +21,18 @@ export function Layout() {
     <>
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[10002] focus:rounded-lg focus:bg-fg focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-bg"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-10002 focus:rounded-lg focus:bg-fg focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-bg"
       >
         Skip to content
       </a>
       <CommandPalette />
-      <div className="relative mx-auto w-full max-w-[680px] px-5 pt-10 pb-16 sm:px-6 sm:pt-16 sm:pb-24 md:px-0">
+      <div className="relative mx-auto w-full max-w-170 px-5 pt-10 pb-16 sm:px-6 sm:pt-16 sm:pb-24 md:px-0">
         <header className="mb-12 flex items-center justify-between gap-4 sm:mb-20">
           <Link
             to="/"
             className="link-hover hidden py-1.5 font-mono text-[13px] tracking-wide text-fg-muted uppercase transition-colors hover:text-fg sm:inline-block"
           >
-            Leonardo Maldonado
+            Herbert Ntim
           </Link>
           <nav
             aria-label="Main navigation"
@@ -54,11 +54,11 @@ export function Layout() {
         </main>
         <footer className="mt-20 flex flex-col-reverse items-start justify-between gap-4 border-t border-surface-border pt-8 sm:mt-32 sm:flex-row sm:items-center sm:gap-0">
           <p className="font-mono text-[11px] tracking-wider text-fg-tertiary">
-            © 2026
+            © {new Date().getFullYear()}
           </p>
           <nav aria-label="Social links" className="flex gap-6">
             <a
-              href="https://github.com/leonardomso"
+              href="https://github.com/HerbertNtim"
               target="_blank"
               rel="noopener noreferrer"
               className="link-hover py-1.5 text-[12px] tracking-wide text-fg-tertiary transition-colors hover:text-fg"
@@ -74,7 +74,7 @@ export function Layout() {
               X
             </a>
             <a
-              href="https://www.linkedin.com/in/leonardomso/"
+              href="https://www.linkedin.com/in/hntim/"
               target="_blank"
               rel="noopener noreferrer"
               className="link-hover py-1.5 text-[12px] tracking-wide text-fg-tertiary transition-colors hover:text-fg"
