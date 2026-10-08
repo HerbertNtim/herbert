@@ -1,0 +1,146 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+
+@theme {
+  --font-sans: "Geist Variable", "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", "Geist Mono", ui-monospace, monospace;
+  --color-bg: #050505;
+  --color-surface-low: #0a0a0a;
+  --color-surface-border: #161616;
+  --color-surface-border-strong: #222;
+  --color-fg: #ededed;
+  --color-fg-muted: #a0a0a0;
+  --color-fg-secondary: #888;
+  --color-fg-tertiary: #7a7a7a;
+  --color-fg-disabled: #444;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  color: var(--color-bg);
+  background-color: var(--color-fg);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #0000, #ffffff0f, #0000);
+}
+
+.link-hover {
+  display: inline-block;
+  position: relative;
+}
+
+.link-hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #ededed;
+  transition: width 0.3s;
+}
+
+.link-hover:hover::after {
+  width: 100%;
+}
+
+summary.faq-summary {
+  list-style: none;
+}
+
+summary.faq-summary::-webkit-details-marker {
+  display: none;
+}
+
+:focus-visible {
+  outline: 2px solid #ededed;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+[cmdk-item] {
+  content-visibility: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  body::before {
+    display: none !important;
+  }
+
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  .resume-section {
+    break-inside: avoid;
+  }
+
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+
+  .link-hover::after {
+    display: none !important;
+  }
+
+  .resume-root,
+  .resume-root * {
+    color: #111 !important;
+    border-color: #ddd !important;
+  }
+
+  .resume-root .resume-label {
+    color: #333 !important;
+  }
+
+  .resume-root .resume-muted {
+    color: #444 !important;
+  }
+}
