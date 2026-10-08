@@ -1,4 +1,4 @@
-# Leonardo Maldonado
+# Herbert Ntim
 
 Personal site rebuilt with React, Vite, and Tailwind CSS.
 
