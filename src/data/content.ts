@@ -71,91 +71,91 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "Strait",
-    href: "https://strait.dev",
+    name: "First Gen Global Network",
+    href: "",
     label: "Building Now",
     description:
-      "Agentic workflow orchestration platform written in Go. Single binary under 30MB. Ships with SDKs in five languages, MCP servers, and a CLI. PostgreSQL for durable queuing, Redis for real-time events.",
-    tags: ["Go", "TanStack Start", "PostgreSQL", "Redis"],
+      "Building a student guidance platform that helps Ghanaian senior high school students navigate university admissions, scholarships, and career opportunities with greater clarity and confidence.",
+    tags: ["Next.Js", "TailwindCSS",],
     home: true,
   },
   {
-    name: "33 JavaScript Concepts",
-    href: "https://github.com/leonardomso/33-js-concepts",
+    name: "Zero To Mastery ",
+    href: "https://github.com/zero-to-mastery",
     label: "Open Source",
     description:
-      "33 JavaScript concepts every developer should know. 66K+ stars and translated into 40+ languages by the community. Recognized by GitHub as a top open-source project of 2018.",
+      "Member of the Zero To Mastery open-source community, contributing to collaborative projects and gaining practical experience with open-source development and community-driven software.",
     tags: ["JavaScript", "Open Source"],
     home: true,
   },
+  // {
+  //   name: "Spaceship",
+  //   href: "https://www.spaceship.com/domain-search/",
+  //   label: "Work",
+  //   description:
+  //     "Sole engineer on the domain search platform for four and a half years, helped sell 3M+ domains. Real-time WebSocket pricing across 500+ TLDs, Beast Mode bulk search, multi-currency engine across 30+ currencies.",
+  //   tags: ["TypeScript", "React", "Zustand", "TanStack Query"],
+  //   home: true,
+  // },
+  // {
+  //   name: "Shopwyse",
+  //   href: "https://www.getshopwyse.com",
+  //   label: "SaaS",
+  //   description:
+  //     "Multi-tenant retail ERP for small merchants. POS/checkout, inventory, CRM, and financial reporting. Built with TanStack Start, React 19, Elysia, Drizzle ORM, and PostgreSQL.",
+  //   tags: ["TanStack Start", "React", "Elysia", "PostgreSQL"],
+  //   home: true,
+  // },
+  // {
+  //   name: "Polyglot",
+  //   href: "https://www.trypolyglot.ai",
+  //   label: "SaaS",
+  //   description:
+  //     "AI-powered writing assistant that interviews the user first, then drafts content in their voice from multiple angles. Rich-text editing, voice profiles, and multi-format export.",
+  //   tags: ["TypeScript", "AI SDK", "Node.js"],
+  //   home: true,
+  // },
+  // {
+  //   name: "gone",
+  //   href: "https://github.com/leonardomso/gone",
+  //   label: "CLI Tool",
+  //   description:
+  //     "Dead link detector written in Go. Concurrent HTTP checks, interactive TUI, auto-fix for redirects, and CI/CD output formats.",
+  //   tags: ["Go", "CLI"],
+  //   home: true,
+  // },
+  // {
+  //   name: "betterhook",
+  //   href: "https://github.com/leonardomso/betterhook",
+  //   label: "CLI Tool",
+  //   description:
+  //     "Git hooks manager written in Rust. DAG-based scheduling, content-addressable cache, and streaming output via Tokio.",
+  //   tags: ["Rust", "Tokio", "CLI"],
+  //   home: true,
+  // },
+  // {
+  //   name: "Otis Finance",
+  //   href: "https://otisfinance.com",
+  //   label: "SaaS",
+  //   description:
+  //     "Stock market API for real-time prices, SEC filings, earnings, and financials.",
+  //   tags: ["TypeScript", "Node.js", "REST APIs"],
+  // },
+  // {
+  //   name: "rust-skills",
+  //   href: "https://github.com/leonardomso/rust-skills",
+  //   label: "Open Source",
+  //   description:
+  //     "179 rules that AI coding agents can use when writing Rust. A collection of best practices for AI-assisted Rust development.",
+  //   tags: ["Rust", "AI", "Open Source"],
+  // },
   {
-    name: "Spaceship",
-    href: "https://www.spaceship.com/domain-search/",
-    label: "Work",
-    description:
-      "Sole engineer on the domain search platform for four and a half years, helped sell 3M+ domains. Real-time WebSocket pricing across 500+ TLDs, Beast Mode bulk search, multi-currency engine across 30+ currencies.",
-    tags: ["TypeScript", "React", "Zustand", "TanStack Query"],
-    home: true,
-  },
-  {
-    name: "Shopwyse",
-    href: "https://www.getshopwyse.com",
-    label: "SaaS",
-    description:
-      "Multi-tenant retail ERP for small merchants. POS/checkout, inventory, CRM, and financial reporting. Built with TanStack Start, React 19, Elysia, Drizzle ORM, and PostgreSQL.",
-    tags: ["TanStack Start", "React", "Elysia", "PostgreSQL"],
-    home: true,
-  },
-  {
-    name: "Polyglot",
-    href: "https://www.trypolyglot.ai",
-    label: "SaaS",
-    description:
-      "AI-powered writing assistant that interviews the user first, then drafts content in their voice from multiple angles. Rich-text editing, voice profiles, and multi-format export.",
-    tags: ["TypeScript", "AI SDK", "Node.js"],
-    home: true,
-  },
-  {
-    name: "gone",
-    href: "https://github.com/leonardomso/gone",
-    label: "CLI Tool",
-    description:
-      "Dead link detector written in Go. Concurrent HTTP checks, interactive TUI, auto-fix for redirects, and CI/CD output formats.",
-    tags: ["Go", "CLI"],
-    home: true,
-  },
-  {
-    name: "betterhook",
-    href: "https://github.com/leonardomso/betterhook",
-    label: "CLI Tool",
-    description:
-      "Git hooks manager written in Rust. DAG-based scheduling, content-addressable cache, and streaming output via Tokio.",
-    tags: ["Rust", "Tokio", "CLI"],
-    home: true,
-  },
-  {
-    name: "Otis Finance",
-    href: "https://otisfinance.com",
-    label: "SaaS",
-    description:
-      "Stock market API for real-time prices, SEC filings, earnings, and financials.",
-    tags: ["TypeScript", "Node.js", "REST APIs"],
-  },
-  {
-    name: "rust-skills",
-    href: "https://github.com/leonardomso/rust-skills",
-    label: "Open Source",
-    description:
-      "179 rules that AI coding agents can use when writing Rust. A collection of best practices for AI-assisted Rust development.",
-    tags: ["Rust", "AI", "Open Source"],
-  },
-  {
-    name: "leonardomso.com",
-    href: "https://leonardomso.com",
+    name: "hntim.com",
+    href: "https://hntim.com",
     label: "Personal",
     description:
-      "This portfolio website. Built with Astro, Tailwind CSS v4, and deployed on Cloudflare Workers.",
-    tags: ["Astro", "TypeScript", "Tailwind CSS"],
+      "This portfolio website. Built with Vite & React.JS, Tailwind CSS, and deployed on Cloudflare Workers.",
+    tags: ["Vite & React.JS", "TypeScript", "Tailwind CSS"],
   },
 ];
 
