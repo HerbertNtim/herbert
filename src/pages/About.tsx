@@ -1,6 +1,5 @@
 import { PageMeta } from "../components/PageMeta";
 import { SectionLabel } from "../components/SectionLabel";
-import { TextLink } from "../components/TextLink";
 import { faqs } from "../data/content";
 
 export function About() {

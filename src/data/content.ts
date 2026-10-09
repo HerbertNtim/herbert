@@ -71,14 +71,24 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "First Gen Global Network",
-    href: "",
+    name: "Data Science and Machine Learning",
+    href: "https://github.com/HerbertNtim/dataScience-ML",
     label: "Building Now",
     description:
-      "Building a student guidance platform that helps Ghanaian senior high school students navigate university admissions, scholarships, and career opportunities with greater clarity and confidence.",
-    tags: ["Next.Js", "TailwindCSS"],
+      "Building practical machine learning and deep learning projects, including dog vision, face recognition, heart disease prediction, and bulldozer price prediction.",
+    tags: [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn",
+      "TensorFlow",
+      "Google Colab",
+      "Jupyter Notebook",
+    ],
     home: true,
   },
+
   {
     name: "Zero To Mastery ",
     href: "https://github.com/zero-to-mastery",
@@ -88,67 +98,42 @@ export const projects: Project[] = [
     tags: ["JavaScript", "Open Source"],
     home: true,
   },
-  // {
-  //   name: "Spaceship",
-  //   href: "https://www.spaceship.com/domain-search/",
-  //   label: "Work",
-  //   description:
-  //     "Sole engineer on the domain search platform for four and a half years, helped sell 3M+ domains. Real-time WebSocket pricing across 500+ TLDs, Beast Mode bulk search, multi-currency engine across 30+ currencies.",
-  //   tags: ["TypeScript", "React", "Zustand", "TanStack Query"],
-  //   home: true,
-  // },
-  // {
-  //   name: "Shopwyse",
-  //   href: "https://www.getshopwyse.com",
-  //   label: "SaaS",
-  //   description:
-  //     "Multi-tenant retail ERP for small merchants. POS/checkout, inventory, CRM, and financial reporting. Built with TanStack Start, React 19, Elysia, Drizzle ORM, and PostgreSQL.",
-  //   tags: ["TanStack Start", "React", "Elysia", "PostgreSQL"],
-  //   home: true,
-  // },
-  // {
-  //   name: "Polyglot",
-  //   href: "https://www.trypolyglot.ai",
-  //   label: "SaaS",
-  //   description:
-  //     "AI-powered writing assistant that interviews the user first, then drafts content in their voice from multiple angles. Rich-text editing, voice profiles, and multi-format export.",
-  //   tags: ["TypeScript", "AI SDK", "Node.js"],
-  //   home: true,
-  // },
-  // {
-  //   name: "gone",
-  //   href: "https://github.com/leonardomso/gone",
-  //   label: "CLI Tool",
-  //   description:
-  //     "Dead link detector written in Go. Concurrent HTTP checks, interactive TUI, auto-fix for redirects, and CI/CD output formats.",
-  //   tags: ["Go", "CLI"],
-  //   home: true,
-  // },
-  // {
-  //   name: "betterhook",
-  //   href: "https://github.com/leonardomso/betterhook",
-  //   label: "CLI Tool",
-  //   description:
-  //     "Git hooks manager written in Rust. DAG-based scheduling, content-addressable cache, and streaming output via Tokio.",
-  //   tags: ["Rust", "Tokio", "CLI"],
-  //   home: true,
-  // },
-  // {
-  //   name: "Otis Finance",
-  //   href: "https://otisfinance.com",
-  //   label: "SaaS",
-  //   description:
-  //     "Stock market API for real-time prices, SEC filings, earnings, and financials.",
-  //   tags: ["TypeScript", "Node.js", "REST APIs"],
-  // },
-  // {
-  //   name: "rust-skills",
-  //   href: "https://github.com/leonardomso/rust-skills",
-  //   label: "Open Source",
-  //   description:
-  //     "179 rules that AI coding agents can use when writing Rust. A collection of best practices for AI-assisted Rust development.",
-  //   tags: ["Rust", "AI", "Open Source"],
-  // },
+  {
+    name: "Learnify LMS",
+    href: "https://learnify-lms-ten.vercel.app/",
+    label: "Full-Stack",
+    description:
+      "A learning management system for managing courses, students, and instructors, with authentication, media uploads, payments, and course organization.",
+    tags: ["Next.js", "TypeScript", "Express", "Node.JS", "AWS (CloudFront, API Gateway, DynamoDB, Lambda, S3)", "Docker"],
+    home: true,
+  },
+  {
+    name: "Heart Disease Prediction",
+    href: "https://github.com/HerbertNtim/heart-disease_project",
+    label: "Machine Learning",
+    description:
+      "A machine learning project exploring medical data to predict the presence of heart disease using Python and classification techniques.",
+    tags: ["Python", "Pandas", "NumPy", "Matplotlib", "scikit-learn"],
+    home: true,
+  },
+  {
+    name: "Evently",
+    href: "https://github.com/HerbertNtim/evently-app",
+    label: "Web App",
+    description:
+      "An event management and ticketing application with event creation, search and filtering, user authentication, order management, and Stripe payments.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Clerk"],
+    home: true,
+  },
+  {
+    name: "React Admin Dashboard",
+    href: "https://react-admin-dashboard-rust-delta.vercel.app/",
+    label: "Dashboard",
+    description:
+      "An administrative dashboard built with React and Refine, exploring reusable interfaces and the foundations of data-driven internal tools.",
+    tags: ["React", "TypeScript", "Refine", "Vite"],
+    home: true,
+  },
   {
     name: "hntim.com",
     href: "https://hntim.com",
