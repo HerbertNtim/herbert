@@ -60,7 +60,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="mb-20 sm:mb-28">
+      {/* <section className="mb-20 sm:mb-28">
         <SectionLabel>Writing</SectionLabel>
         <div>
           <p className="mb-8 max-w-110 text-[15px] leading-[1.75] text-fg-secondary">
@@ -87,7 +87,7 @@ export function Home() {
             ))}
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <section className="mb-20 sm:mb-28">
         <SectionLabel>Stack</SectionLabel>
