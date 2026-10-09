@@ -75,7 +75,7 @@ export const projects: Project[] = [
     href: "https://github.com/HerbertNtim/dataScience-ML",
     label: "Building Now",
     description:
-      "Building practical machine learning and deep learning projects, including dog vision, face recognition, heart disease prediction, and bulldozer price prediction.",
+      "Exploring data science, machine learning, and deep learning through hands-on projects focused on real-world problem-solving.",
     tags: [
       "Python",
       "NumPy",
