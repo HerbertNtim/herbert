@@ -15,8 +15,8 @@ export function Home() {
   return (
     <div>
       <PageMeta
-        title="Herbert Ntim · Full-Stack Engineer"
-        description="Full-Stack Engineer based in Kumasi, Ghana. Building full-stack applications with TypeScript, React, Next.js, and Python. Exploring data science and machine learning."
+        title="Herbert Ntim · Software Engineer"
+        description="Software Engineer (Full-Stack & Data Science) based in Kumasi, Ghana. Building full-stack applications with TypeScript, React, Next.js, and Python. Exploring data science and machine learning."
       />
       <section className="mb-24 sm:mb-32">
         <p className="mb-4 font-mono text-[12px] tracking-[0.25em] text-fg-tertiary uppercase">

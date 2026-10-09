@@ -76,7 +76,7 @@ export const projects: Project[] = [
     label: "Building Now",
     description:
       "Building a student guidance platform that helps Ghanaian senior high school students navigate university admissions, scholarships, and career opportunities with greater clarity and confidence.",
-    tags: ["Next.Js", "TailwindCSS",],
+    tags: ["Next.Js", "TailwindCSS"],
     home: true,
   },
   {
@@ -185,44 +185,49 @@ export const homeExperience = [
 
 export const faqs = [
   {
-    question: "Who is Leonardo Maldonado?",
+    question: "Who is Herbert Ntim?",
     answer:
-      "Leonardo Maldonado is a senior full-stack engineer based in Valencia, Spain, originally from Franca, Brazil. He has 7+ years of experience in TypeScript, React, Node.js, and Go. He was previously the sole engineer on Spaceship's domain search at Namecheap, helping sell 3M+ domains, and is the creator of 33 JavaScript Concepts (66K+ GitHub stars).",
+      "Herbert Ntim is a software engineer from Kumasi, Ghana, with a background in Computer Engineering from KNUST. He builds full-stack applications using TypeScript, JavaScript, React, Next.js, and Python, with interests in data science, machine learning, and computer vision.",
   },
   {
-    question: "What is Leonardo Maldonado building right now?",
+    question: "What is Herbert Ntim studying?",
     answer:
-      "Leonardo is currently building Strait, an agentic workflow orchestration platform written in Go. It runs background jobs, scheduled tasks, and multi-step workflows from a single binary under 30MB. Strait ships with SDKs in five languages (TypeScript, Python, Go, Ruby, Rust), MCP servers, and a CLI.",
+      "Herbert is pursuing an MPhil in Computer Engineering, building on his undergraduate background in Computer Engineering from KNUST. His academic interests include image processing, computer vision, data science, and machine learning, with a focus on applying engineering techniques to practical problems.",
   },
   {
-    question: "What did Leonardo build at Namecheap?",
+    question: "What is Herbert Ntim working on right now?",
     answer:
-      "Leonardo was the sole engineer on Spaceship's domain search product for four and a half years (Nov 2021 to Apr 2026). He built the React/TypeScript frontend from scratch, including a real-time WebSocket pricing engine for 500+ TLDs, Beast Mode bulk search, and multi-currency pricing for 30+ markets. The platform sold over 3M domains during his tenure.",
+      "Herbert is expanding his skills in machine learning and deep learning through practical projects, including dog vision, face recognition, heart disease prediction, and bulldozer price prediction. He is focused on building, evaluating, and deploying models to solve real-world problems.",
   },
   {
-    question: "What is 33 JavaScript Concepts?",
+    question: "What did Herbert do at the College of Engineering, KNUST?",
     answer:
-      "33 JavaScript Concepts is an open-source curated guide created by Leonardo Maldonado in 2018, covering core JavaScript concepts from closures and prototypes to async patterns. It has 66K+ GitHub stars, has been translated into 40+ languages by the community, and was recognized by GitHub as a top open-source project of 2018.",
+      "Herbert developed JavaScript and TypeScript automation tools for examination scheduling, maintained examination web applications and student room-allocation systems, and used Python to customize examination attendance sheets. His work supported examination operations for more than 9,000 students.",
   },
   {
-    question: "What is Leonardo Maldonado's technical stack?",
+    question: "What is Herbert Ntim's technical stack?",
     answer:
-      "Leonardo's main stack is TypeScript, React, Node.js, and Go. He uses Next.js, TanStack Start, Tailwind CSS, PostgreSQL, Redis, GraphQL, and WebSocket for full-stack work. For AI applications he uses Vercel AI SDK, Anthropic API, OpenAI API, and MCP (Model Context Protocol). He writes Rust for side projects like betterhook.",
+      "Herbert's core development tools include JavaScript, TypeScript, React, Next.js, Node.js, Python, and Tailwind CSS. He also works with technologies such as MongoDB, PostgreSQL, GraphQL, and FastAPI, and is developing skills in data science and machine learning with NumPy, Pandas, scikit-learn, and TensorFlow.",
   },
   {
-    question: "Where is Leonardo Maldonado based?",
+    question: "What are Herbert Ntim's research interests?",
     answer:
-      "Leonardo Maldonado is based in Valencia, Spain (CET timezone). He's originally from Franca, Brazil, and moved to Valencia to be closer to the European tech scene. He speaks Portuguese (native), English (fluent), and Spanish (fluent).",
+      "Herbert is interested in Computer Engineering, image processing, computer vision, data science, and machine learning. He is particularly interested in exploring image-enhancement techniques for degraded CCTV, camera, and mobile images, beginning with traditional image-processing methods.",
   },
   {
-    question: "How can I contact Leonardo Maldonado?",
+    question: "Does Herbert Ntim contribute to open source?",
     answer:
-      "You can reach Leonardo by email at leonardomso11@gmail.com, on GitHub at github.com/leonardomso, on LinkedIn at linkedin.com/in/leonardomso, or on X at @leonardomso.",
+      "Herbert is a member of the Zero To Mastery open-source community and has contributed to an open-source project. He is interested in learning through collaboration and becoming more involved in the open-source ecosystem.",
   },
   {
-    question: "Is Leonardo Maldonado open to new opportunities?",
+    question: "How can I contact Herbert Ntim?",
     answer:
-      "Leonardo recently left Namecheap and is exploring what comes next while building Strait. He's open to conversations about senior full-stack and product engineering roles, particularly involving TypeScript, React, Go, or AI agent infrastructure.",
+      "You can connect with Herbert through his GitHub profile at github.com/HerbertNtim or reach out through the contact links available on his portfolio website.",
+  },
+  {
+    question: "Is Herbert Ntim open to new opportunities?",
+    answer:
+      "Herbert is interested in opportunities that support his growth as a software engineer, including full-stack development, collaborative software projects, and work related to data science and machine learning. He is also focused on advancing his academic journey in Computer Engineering.",
   },
 ];
 

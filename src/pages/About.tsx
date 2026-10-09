@@ -7,91 +7,44 @@ export function About() {
   return (
     <div>
       <PageMeta
-        title="About · Leonardo Maldonado"
-        description="Senior full-stack engineer based in Valencia, Spain. Previously sole engineer on Spaceship's domain search at Namecheap (3M+ domains sold). Creator of 33 JavaScript Concepts. Currently building Strait."
+        title="About · Herbert"
+        description="Software Engineer (Full-Stack & Data Science) based in Kumasi, Ghana. Building full-stack applications with TypeScript, React, Next.js, and Python. Exploring data science and machine learning."
       />
       <p className="mb-4 font-mono text-[12px] tracking-[0.25em] text-fg-tertiary uppercase">
         About
       </p>
       <h1 className="text-[clamp(2rem,5vw,3rem)] leading-[1.1] font-semibold tracking-[-0.03em] text-fg">
-        Leonardo Maldonado
+        Herbert Ntim
       </h1>
       <div className="mt-12 flex flex-col gap-6 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
         <p>
-          I&apos;m Leonardo. I grew up in{" "}
-          <span className="text-fg-muted">Franca, Brazil</span> and moved to{" "}
-          <span className="text-fg-muted">Valencia, Spain</span> a few years
-          ago. I wanted to be closer to the European tech scene and, honestly, I
-          just really like it here. The weather, the food, the pace of life.
-        </p>
-        <p>
-          I&apos;ve been writing code for about 7 years now. Most of that time
-          was spent at{" "}
-          <TextLink href="https://www.namecheap.com">Namecheap</TextLink>, where
-          I was the sole engineer on{" "}
-          <TextLink href="https://www.spaceship.com/domain-search/">
-            Spaceship&apos;s domain search
-          </TextLink>. I built the whole thing from zero and helped the platform sell 3M+
-          domains: the architecture, the real-time pricing over WebSocket, bulk
-          search, multi-currency support across 30+ currencies. Four and a half
-          years of owning a product end to end.
-        </p>
-        <p>
-          Right now I&apos;m heads-down on{" "}
-          <TextLink href="https://strait.dev">Strait</TextLink>, an agentic
-          workflow orchestration platform written in Go. A single binary under
-          30MB that runs background jobs, scheduled tasks, and multi-step
-          workflows. It ships with SDKs in five languages, MCP servers, and a
-          CLI. PostgreSQL for durable queuing, Redis for real-time events.
-        </p>
-        <p>
-          On the side, I&apos;ve built a few other things I&apos;m proud of.{" "}
-          <TextLink href="https://www.getshopwyse.com">Shopwyse</TextLink> is a
-          retail ERP I built full-stack with TanStack Start and PostgreSQL.{" "}
-          <TextLink href="https://www.trypolyglot.ai">Polyglot</TextLink> is an
-          AI writing tool that interviews you before drafting anything. I also
-          write CLI tools in Go and Rust when I want to learn something new by
-          solving a real problem.
-        </p>
-        <p>
-          In 2018, I made{" "}
-          <TextLink href="https://github.com/leonardomso/33-js-concepts">
-            33 JavaScript Concepts
-          </TextLink>. It was supposed to be a personal study guide, but it took off. 66K+
-          stars now, translated into 40+ languages.{" "}
-          <TextLink href="https://github.blog/2018-12-13-new-open-source-projects/#top-projects-of-2018">
-            GitHub named it a top project of 2018
-          </TextLink>. I still maintain it.
-        </p>
-        <p>
-          I also spent a few years writing for{" "}
-          <TextLink href="https://www.telerik.com/blogs/author/leonardo-maldonado">
-            Progress
-          </TextLink>{" "}
-          and{" "}
-          <TextLink href="https://blog.logrocket.com/author/leonardomaldonado/">
-            LogRocket
-          </TextLink>. 100+ articles on JavaScript, TypeScript, React, Node.js, GraphQL.
-          Over a million views total. I like explaining things clearly and
-          helping other developers learn.
-        </p>
-        <p>
-          My main stack is TypeScript, React, Node.js, and Go, but I don&apos;t
-          treat tools like an identity. I pick whatever gets the job done. Rust
-          for side projects, PostgreSQL for data, whatever framework makes sense
-          for the problem.
-        </p>
-        <p>
-          When I&apos;m not coding, I&apos;m probably walking around Valencia,
-          reading, or tinkering with a side project that may or may not ship. I
-          speak Portuguese, English, and Spanish.
-        </p>
-        <p>
-          If you want to chat, I&apos;m always up for it.{" "}
-          <TextLink href="mailto:leonardomso11@gmail.com" external={false}>
-            Send me an email
-          </TextLink>{" "}
-          or find me on <TextLink href="https://x.com/leonardomso">X</TextLink>.
+          I'm a software engineer based in Kumasi, Ghana, with a background in
+          Computer Engineering from KNUST. I enjoy building useful software,
+          solving practical problems, and understanding how things work under
+          the hood. I've worked with the College of Engineering at KNUST,
+          developing automation tools and maintaining examination systems that
+          support thousands of students. That experience showed me how software
+          can make everyday processes more efficient and reliable. I'm currently
+          working with First Gen Global Network, building a student guidance
+          platform to help Ghanaian senior high school students navigate
+          university admissions, scholarships, and career opportunities. I enjoy
+          turning ideas and designs into practical applications that solve real
+          problems. My main tools are TypeScript, JavaScript, React, Next.js,
+          and Python. I've worked across frontend development, full-stack
+          applications, and API integration, and I'm continuing to strengthen my
+          backend engineering skills. Beyond software development, I'm
+          interested in data science, machine learning, and computer vision. I'm
+          preparing for the next stage of my academic journey in Computer
+          Engineering, where I hope to deepen my technical knowledge and explore
+          research problems through practical experimentation. I also value
+          learning in public and collaborating with other developers. I've
+          started contributing to open-source projects through the Zero To
+          Mastery community, and I'm looking to become more involved in building
+          software with others. Outside coding, I'm focused on continuous
+          learning, improving my communication skills, and becoming a more
+          thoughtful engineer. If you're working on an interesting project,
+          exploring a technical idea, or simply want to connect, feel free to
+          reach out.
         </p>
       </div>
 
