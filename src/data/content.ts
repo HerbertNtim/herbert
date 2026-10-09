@@ -159,32 +159,25 @@ export const projects: Project[] = [
 
 export const homeExperience = [
   {
-    dates: "Nov 2021 to Apr 2026",
-    role: "Front End Engineer, Spaceship Domain Search",
-    company: "Namecheap",
-    companyHref: "https://www.namecheap.com/",
-    body: "namecheap" as const,
+    dates: "Oct 2024 to Oct 2026",
+    role: "Software Developer",
+    company: "College of Engineering, KNUST",
+    companyHref: "https://coe.knust.edu.gh/",
+    body: "Developed software solutions to simplify examination scheduling and administration, improving workflows for the College of Engineering and supporting over 9,800 students.",
   },
   {
-    dates: "May 2019 to Dec 2023",
-    role: "Technical Author",
-    company: "Progress / LogRocket",
-    companyHref: "https://www.progress.com/",
-    body: "Published 100+ technical articles on JavaScript, TypeScript, React, Node.js, GraphQL, and web fundamentals. Tutorials, deep dives, and framework comparisons reaching millions of developers.",
+    dates: "Sept 2023 to Dec 2023",
+    role: "Generative AI Intern",
+    company: "Alle-ai",
+    companyHref: "https://www.alle-ai.com/",
+    body: "Applied generative AI techniques to explore practical solutions to real-world problems, gaining hands-on experience in AI-powered application development.",
   },
   {
-    dates: "Oct 2019 to Apr 2020",
-    role: "Software Engineer",
-    company: "Popstand",
-    companyHref: "https://popstand.com/",
-    body: "Built Taco Maps from scratch, a React Native food delivery app for LA taco restaurants. Redux, TypeScript, Firebase for real-time order updates, and E2E tests with Detox on iOS and Android.",
-  },
-  {
-    dates: "Jan 2019 to Jul 2019",
-    role: "Software Engineer",
-    company: "Foton",
-    companyHref: "https://foton.tech/",
-    body: "React and React Native applications for Brazilian banking clients. Code met financial-grade security and reliability standards, with secure data handling and thorough testing.",
+    dates: "Apr 2023 to Aug 2023",
+    role: "Front End Engineer",
+    company: "MIT-LAB",
+    companyHref: "",
+    body: "Developed responsive interfaces for an online voting application using React and Tailwind CSS, translating Figma designs into functional user experiences while exploring QGIS and geospatial mapping.",
   },
 ];
 
@@ -282,7 +275,10 @@ export const skillGroups = [
     "AI",
     "Vercel AI SDK, OpenAI API, Anthropic API, MCP (Model Context Protocol), AI Agents, LLM Integration",
   ],
-  ["Cloud & Infrastructure", "Docker, Fly.io, Cloudflare, Vercel, GitHub Actions, CI/CD"],
+  [
+    "Cloud & Infrastructure",
+    "Docker, Fly.io, Cloudflare, Vercel, GitHub Actions, CI/CD",
+  ],
   ["Testing", "Vitest, Jest, Playwright, Detox"],
   ["Dev Tools", "Git, Biome, Better Auth"],
 ] as const;

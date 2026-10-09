@@ -21,7 +21,7 @@ export function Home() {
       />
       <section className="mb-24 sm:mb-32">
         <p className="mb-4 font-mono text-[12px] tracking-[0.25em] text-fg-tertiary uppercase">
-          Full-Stack Engineer · Kumasi, Ghana
+          Software Engineer·Full-Stack & Data Science · Kumasi, Ghana
         </p>
         <h1 className="text-[clamp(2.5rem,6vw,4rem)] leading-[1.05] font-semibold tracking-[-0.035em] text-fg">
           Herbert
@@ -49,24 +49,11 @@ export function Home() {
                 </span>
               </div>
               <p className="mt-1.5 text-[15px] font-medium text-fg">
-                {job.role} <span className="text-fg-tertiary">at</span>{" "}
+                {job.role} <span className="text-fg-tertiary">{" "}at</span>{" "}
                 <TextLink href={job.companyHref}>{job.company}</TextLink>
               </p>
               <p className="mt-2 text-[14px] leading-[1.7] text-fg-secondary">
-                {job.body === "namecheap" ? (
-                  <>
-                    Sole engineer on Spaceship&apos;s{" "}
-                    <TextLink href="https://www.spaceship.com/domain-search/">
-                      domain search product
-                    </TextLink>{" "}
-                    end to end, contributing to the sale of 3M+ domains. Built
-                    the React/TypeScript frontend from scratch with real-time
-                    WebSocket pricing for 500+ TLDs, Beast Mode bulk search, and
-                    multi-currency support across 30+ markets.
-                  </>
-                ) : (
-                  job.body
-                )}
+                {job.body}
               </p>
             </div>
           ))}
