@@ -18,24 +18,24 @@ export const stack = [
   "TensorFlow Hub",
 ] as const;
 
-export const publications = [
-  {
-    name: "Progress / Telerik",
-    href: "https://www.telerik.com/blogs/author/leonardo-maldonado",
-  },
-  {
-    name: "LogRocket",
-    href: "https://blog.logrocket.com/author/leonardomaldonado/",
-  },
-  {
-    name: "Medium",
-    href: "https://medium.com/@leonardomso",
-  },
-  {
-    name: "dev.to",
-    href: "https://dev.to/leonardomso",
-  },
-] as const;
+// export const publications = [
+//   {
+//     name: "Progress / Telerik",
+//     href: "https://www.telerik.com/blogs/author/leonardo-maldonado",
+//   },
+//   {
+//     name: "LogRocket",
+//     href: "https://blog.logrocket.com/author/leonardomaldonado/",
+//   },
+//   {
+//     name: "Medium",
+//     href: "https://medium.com/@leonardomso",
+//   },
+//   {
+//     name: "dev.to",
+//     href: "https://dev.to/leonardomso",
+//   },
+// ] as const;
 
 export const contacts = [
   {
