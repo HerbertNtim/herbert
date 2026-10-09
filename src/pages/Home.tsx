@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 import { PageMeta } from "../components/PageMeta";
 import { ProjectCard } from "../components/ProjectCard";
@@ -8,7 +8,6 @@ import {
   contacts,
   homeExperience,
   projects,
-  publications,
   stack,
 } from "../data/content";
 

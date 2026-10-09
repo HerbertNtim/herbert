@@ -66,7 +66,7 @@ export function Layout() {
               GitHub
             </a>
             <a
-              href="https://x.com/leonardomso"
+              href="https://x.com/hntim0829"
               target="_blank"
               rel="noopener noreferrer"
               className="link-hover py-1.5 text-[12px] tracking-wide text-fg-tertiary transition-colors hover:text-fg"

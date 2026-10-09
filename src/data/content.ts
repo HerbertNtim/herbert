@@ -40,23 +40,23 @@ export const publications = [
 export const contacts = [
   {
     label: "Email",
-    value: "leonardomso11@gmail.com",
-    href: "mailto:leonardomso11@gmail.com",
+    value: "herbertntim2023@gmail.com",
+    href: "mailto:herbertntim2023@gmail.com",
   },
   {
     label: "X",
-    value: "@leonardomso",
-    href: "https://x.com/leonardomso",
+    value: "@hntim0829",
+    href: "https://x.com/hntim0829",
   },
   {
     label: "GitHub",
-    value: "@leonardomso",
-    href: "https://github.com/leonardomso",
+    value: "@HerbertNtim",
+    href: "https://github.com/HerbertNtim",
   },
   {
     label: "LinkedIn",
-    value: "/in/leonardomso",
-    href: "https://www.linkedin.com/in/leonardomso/",
+    value: "/in/Herbert Ntim",
+    href: "https://www.linkedin.com/in/hntim/",
   },
 ] as const;
 
