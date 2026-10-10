@@ -42,7 +42,7 @@ export function Layout() {
               <Link
                 key={item.href}
                 to={item.href}
-                className="link-hover py-1.5 text-[13px] tracking-wide text-fg-tertiary uppercase transition-colors hover:text-fg"
+                className={`link-hover py-1.5 text-[13px] tracking-wide  uppercase transition-colors  ${item.href === pathname ? "text-fg active-link" : "text-fg-tertiary hover:text-fg"}`}
               >
                 {item.label}
               </Link>

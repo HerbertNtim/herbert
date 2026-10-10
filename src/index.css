@@ -52,6 +52,7 @@ body::before {
   background: linear-gradient(90deg, #0000, #ffffff0f, #0000);
 }
 
+
 .link-hover {
   display: inline-block;
   position: relative;
@@ -68,7 +69,8 @@ body::before {
   transition: width 0.3s;
 }
 
-.link-hover:hover::after {
+.link-hover:hover::after,
+.active-link::after {
   width: 100%;
 }
 
