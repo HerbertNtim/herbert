@@ -203,21 +203,14 @@ export function Resume() {
 
       <section className="resume-section">
         <h2 className="resume-label mb-6 font-mono text-[11px] tracking-[0.2em] text-fg-tertiary uppercase">
-          Awards & Open Source
+          Open Source
         </h2>
+
         <ol className="resume-muted list-decimal space-y-3 pl-5 text-[14px] leading-[1.7] text-fg-secondary">
           <li>
-            <span className="font-medium text-fg">
-              GitHub Top Open Source Project of 2018
-            </span>
             <span className="resume-muted text-fg-tertiary"> · </span>
-            33 JavaScript Concepts (66K+ stars, 40+ language translations).
-          </li>
-          <li>
-            <span className="font-medium text-fg">Open Source Contributor</span>
-            <span className="resume-muted text-fg-tertiary"> · </span>
-            Code and documentation contributions to Better Auth, Node.js, and
-            TanStack.
+            Contributed to an open-source project through the Zero To Mastery
+            community.
           </li>
         </ol>
       </section>
