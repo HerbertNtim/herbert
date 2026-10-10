@@ -5,80 +5,117 @@ export function Now() {
   return (
     <div>
       <PageMeta
-        title="Now · Leonardo Maldonado"
-        description="What I'm currently working on and thinking about."
+        title="Now · Herbert Ntim"
+        description="What I'm working on, learning, and focusing on while pursuing my MPhil in Computer Engineering."
       />
+
       <p className="mb-4 font-mono text-[12px] tracking-[0.25em] text-fg-tertiary uppercase">
         Now
       </p>
+
       <h1 className="text-[clamp(2rem,5vw,3rem)] leading-[1.1] font-semibold tracking-[-0.03em] text-fg">
         What I&apos;m up to
       </h1>
-      <p className="mt-6 max-w-110 text-[15px] leading-[1.75] text-fg-secondary">
-        A snapshot of what I&apos;m focused on right now. Inspired by{" "}
-        <TextLink href="https://nownownow.com/about">nownownow.com</TextLink>.
-      </p>
+
       <div className="mt-16 flex flex-col gap-12">
         <section>
           <h2 className="mb-4 font-mono text-[11px] tracking-[0.2em] text-fg-tertiary uppercase">
             Work
           </h2>
+
           <div className="flex flex-col gap-4 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
             <p>
-              Recently left{" "}
-              <TextLink href="https://www.namecheap.com">Namecheap</TextLink>,
-              where I built{" "}
-              <TextLink href="https://www.spaceship.com">Spaceship&apos;s</TextLink>{" "}
-              domain search platform from scratch as the sole engineer for four
-              and a half years, helping the platform sell 3M+ domains. Exploring
-              what comes next.
+              I&apos;m currently open to opportunities where I can contribute as
+              a software engineer and grow through building projects. Building
+              software that solves practical problems, with experience in
+              full-stack web development and workflow automation.
+            </p>
+
+            <p>
+              I&apos;m looking for a role of around 30 hours per week that
+              allows me to contribute to a team while making time for my
+              academic work.
             </p>
           </div>
         </section>
+
         <section>
           <h2 className="mb-4 font-mono text-[11px] tracking-[0.2em] text-fg-tertiary uppercase">
-            Side Projects
+            Studies
           </h2>
+
           <div className="flex flex-col gap-4 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
             <p>
-              Redesigning this portfolio from scratch with Next.js 16, Tailwind
-              CSS v4, and a custom dark minimal aesthetic. Exploring
-              markdown-powered blogging and modern web patterns.
-            </p>
-            <p>
-              Continuing to maintain{" "}
-              <TextLink href="https://github.com/leonardomso/33-js-concepts">
-                33 JavaScript Concepts
-              </TextLink>, now at 63k+ stars and translated into 20+ languages.
+              Pursuing my academic goals in MPhil Computer
+              Engineering. I want to strengthen my foundations in computing
+              while exploring research problems that connect software,
+              algorithms, and practical engineering applications.
             </p>
           </div>
         </section>
+
         <section>
           <h2 className="mb-4 font-mono text-[11px] tracking-[0.2em] text-fg-tertiary uppercase">
             Learning
           </h2>
+
           <div className="flex flex-col gap-4 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
             <p>
-              Exploring modern React patterns, server components, and the latest
-              in the JavaScript ecosystem. Always looking for better ways to
-              build for the web.
+              Deepening my knowledge of data science, machine learning, and deep
+              learning through hands-on projects. I&apos;m focusing on
+              understanding the fundamentals, building practical solutions, and
+              learning how to evaluate models properly.
+            </p>
+
+            <p>
+              I&apos;m also strengthening my backend engineering skills and
+              exploring computer vision as a potential direction for future
+              research.
             </p>
           </div>
         </section>
+
+        <section>
+          <h2 className="mb-4 font-mono text-[11px] tracking-[0.2em] text-fg-tertiary uppercase">
+            Side Projects
+          </h2>
+
+          <div className="flex flex-col gap-4 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
+            <p>
+              Building{" "}
+              <TextLink href="https://readora-voice.vercel.app/">
+                Readora Voice
+              </TextLink>
+              , an AI-powered voice application, while continuing to develop
+              projects that help me apply what I learn.
+            </p>
+
+            <p>
+              I&apos;m also improving my portfolio and working on projects that
+              demonstrate my abilities in full-stack development and data
+              science.
+            </p>
+          </div>
+        </section>
+
         <section>
           <h2 className="mb-4 font-mono text-[11px] tracking-[0.2em] text-fg-tertiary uppercase">
             Life
           </h2>
+
           <div className="flex flex-col gap-4 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
             <p>
-              Born and raised in Brazil, now based in Valencia, Spain. Enjoying
-              the Mediterranean pace of life and exploring the city.
+              Trying to be intentional about how I spend my time, stay
+              consistent with learning, and keep growing as an engineer.
+              I&apos;m learning to balance professional growth, academic
+              ambitions, and life outside the screen.
             </p>
           </div>
         </section>
       </div>
+
       <p className="mt-20 text-[13px] text-fg-tertiary">
-        Last updated: February 2026
+        Last updated: {new Date().getMonth()} {new Date().getFullYear()}
       </p>
     </div>
   );
