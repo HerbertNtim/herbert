@@ -322,7 +322,7 @@ export const resumeProjects = [
   {
     name: "Learnify LMS",
     href: "https://learnify-lms-ten.vercel.app/",
-    meta: "Live on Vercel",
+    meta: "Full Stack",
     aside: "Web Application",
     bullets: [
       "A learning management system designed to support course delivery and learning administration.",
