@@ -223,42 +223,42 @@ export const faqs = [
   },
 ];
 
-// export const uses = [
-//   {
-//     title: "Editor & Terminal",
-//     items: [
-//       ["VS Code", "Primary code editor"],
-//       ["Terminal", "macOS terminal"],
-//       ["Geist Mono", "Monospace font for editor and terminal"],
-//     ],
-//   },
-//   {
-//     title: "Development",
-//     items: [
-//       ["TypeScript", "Primary language for everything"],
-//       ["React / Next.js", "Frontend framework of choice"],
-//       ["Tailwind CSS", "Utility-first CSS framework"],
-//       ["Node.js", "Server-side runtime"],
-//       ["PostgreSQL", "Database for most projects"],
-//       ["Git", "Version control"],
-//     ],
-//   },
-//   {
-//     title: "Apps",
-//     items: [
-//       ["Figma", "Design and prototyping"],
-//       ["Notion", "Notes and documentation"],
-//     ],
-//   },
-//   {
-//     title: "Services",
-//     items: [
-//       ["Vercel", "Deployment and hosting"],
-//       ["GitHub", "Code hosting and collaboration"],
-//       ["Cloudflare", "DNS and CDN"],
-//     ],
-//   },
-// ] as const;
+export const uses = [
+  {
+    title: "Editor & Terminal",
+    items: [
+      ["VS Code", "Primary code editor"],
+      ["Terminal", "macOS terminal"],
+      ["Geist Mono", "Monospace font for editor and terminal"],
+    ],
+  },
+  {
+    title: "Development",
+    items: [
+      ["TypeScript", "Primary language for everything"],
+      ["React / Next.js", "Frontend framework of choice"],
+      ["Tailwind CSS", "Utility-first CSS framework"],
+      ["Node.js", "Server-side runtime"],
+      ["PostgreSQL", "Database for most projects"],
+      ["Git", "Version control"],
+    ],
+  },
+  {
+    title: "Apps",
+    items: [
+      ["Figma", "Design and prototyping"],
+      ["Notion", "Notes and documentation"],
+    ],
+  },
+  {
+    title: "Services",
+    items: [
+      ["Vercel", "Deployment and hosting"],
+      ["GitHub", "Code hosting and collaboration"],
+      ["Cloudflare", "DNS and CDN"],
+    ],
+  },
+] as const;
 
 export const skillGroups = [
   ["Languages", "JavaScript, TypeScript, Python, HTML, CSS"],

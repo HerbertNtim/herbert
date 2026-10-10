@@ -1,13 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import { Layout } from "./components/Layout";
 import { About } from "./pages/About";
-import { Blog } from "./pages/Blog";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Now } from "./pages/Now";
 import { Projects } from "./pages/Projects";
 import { Resume } from "./pages/Resume";
-import { Uses } from "./pages/Uses";
 
 export default function App() {
   return (
@@ -17,9 +15,9 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="blog" element={<Blog />} />
+          {/* <Route path="blog" element={<Blog />} /> */}
           <Route path="resume" element={<Resume />} />
-          <Route path="uses" element={<Uses />} />
+          {/* <Route path="uses" element={<Uses />} /> */}
           <Route path="now" element={<Now />} />
           <Route path="*" element={<NotFound />} />
         </Route>
