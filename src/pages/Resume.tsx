@@ -177,25 +177,25 @@ export function Resume() {
         </h2>
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
-            <p className="text-[15px] font-medium text-fg">
-              Universidade de Franca{" "}
+            <p className="text-[15px] font-medium text-fg flex flex-col">
+              Kwame Nkrumah University of Science and Technology{" "}
               <span className="resume-muted font-normal text-fg-tertiary">
-                · Bachelor of Computer Science
+                · Bsc. Computer Engineering
               </span>
             </p>
             <span className="resume-muted shrink-0 font-mono text-[11px] tracking-wider text-fg-tertiary">
-              2016 to 2020
+              2020 to 2024
             </span>
           </div>
           <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
             <p className="text-[15px] font-medium text-fg">
-              Centro Universitário Senac{" "}
+              Kwame Nkrumah University of Science and Technology{" "}
               <span className="resume-muted font-normal text-fg-tertiary">
-                · Computer Engineering Technologies / Technicians
+                · Mphil. Computer Engineering
               </span>
             </p>
             <span className="resume-muted shrink-0 font-mono text-[11px] tracking-wider text-fg-tertiary">
-              2013 to 2014
+              Starting 2026/2027 Academic Year
             </span>
           </div>
         </div>
