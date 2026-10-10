@@ -28,33 +28,33 @@ export function Resume() {
 
       <div className="mb-12">
         <h1 className="text-[clamp(2rem,5vw,3rem)] leading-[1.1] font-semibold tracking-[-0.03em] text-fg">
-          Leonardo Maldonado
+          Herbert Ntim
         </h1>
         <p className="mt-3 text-[15px] text-fg-secondary">
-          Senior Full-Stack Engineer · React, TypeScript, Go
+          Full-Stack Engineer & Data Science · React, TypeScript, Python
         </p>
         <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-[13px]">
-          <span className="text-fg-muted">Valencia, Spain (CET)</span>
+          <span className="text-fg-muted">Kumasi, Ghana</span>
           <a
-            href="tel:+34674271313"
+            href="tel:+233559073518"
             className="link-hover text-fg-muted transition-colors hover:text-fg"
           >
-            +34 674 27 13 13
+            +233559073518
           </a>
           <a
-            href="mailto:leonardomso11@gmail.com"
+            href="mailto:herbertntim15@gmail.com"
             className="link-hover text-fg-muted transition-colors hover:text-fg"
           >
-            leonardomso11@gmail.com
+            herbertntim15@gmail.com
           </a>
         </div>
         <div className="mt-2 flex flex-wrap gap-x-6 gap-y-2 text-[13px]">
-          <TextLink href="https://www.leonardomso.com">leonardomso.com</TextLink>
-          <TextLink href="https://github.com/leonardomso">
-            github.com/leonardomso
+          <TextLink href="https://www.hntim.com">hntim.com</TextLink>
+          <TextLink href="https://github.com/HerbertNtim">
+            github.com/HerbertNtim
           </TextLink>
-          <TextLink href="https://www.linkedin.com/in/leonardomso/">
-            linkedin.com/in/leonardomso
+          <TextLink href="https://www.linkedin.com/in/hntim/">
+            linkedin.com/in/hntim
           </TextLink>
         </div>
       </div>
