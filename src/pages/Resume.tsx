@@ -6,7 +6,7 @@ export function Resume() {
   return (
     <div className="resume-root">
       <PageMeta
-        title="Resume · Leonardo Maldonado"
+        title="Resume · Herbert Ntim"
         description="Senior full-stack engineer with 7+ years of experience in TypeScript, React, Node.js, and Go. Creator of 33 JavaScript Concepts."
       />
       <div className="no-print mb-8 flex items-center justify-between">

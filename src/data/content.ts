@@ -120,16 +120,16 @@ export const projects: Project[] = [
     label: "Machine Learning",
     description:
       "A machine learning project exploring medical data to predict the presence of heart disease using Python and classification techniques.",
-    tags: ["Python", "Pandas", "NumPy", "Matplotlib", "scikit-learn"],
+    tags: ["Python", "VAPI API", "Pandas", "NumPy", "Matplotlib", "scikit-learn"],
     home: true,
   },
   {
-    name: "Evently",
-    href: "https://github.com/HerbertNtim/evently-app",
-    label: "Web App",
+    name: "Readora Voice",
+    href: "https://readora-voice.vercel.app/",
+    label: "AI Full Stack Application",
     description:
-      "An event management and ticketing application with event creation, search and filtering, user authentication, order management, and Stripe payments.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Clerk"],
+      "Built an AI-powered voice companion that lets users upload PDF documents and interact with their content through natural voice conversations.",
+    tags: ["Next.js", "Vapi API", "TypeScript", "TailwindCSS", "MongoDB", "Clerk-Subscription", "Clerk"],
     home: true,
   },
   {
@@ -223,42 +223,42 @@ export const faqs = [
   },
 ];
 
-export const uses = [
-  {
-    title: "Editor & Terminal",
-    items: [
-      ["VS Code", "Primary code editor"],
-      ["Terminal", "macOS terminal"],
-      ["Geist Mono", "Monospace font for editor and terminal"],
-    ],
-  },
-  {
-    title: "Development",
-    items: [
-      ["TypeScript", "Primary language for everything"],
-      ["React / Next.js", "Frontend framework of choice"],
-      ["Tailwind CSS", "Utility-first CSS framework"],
-      ["Node.js", "Server-side runtime"],
-      ["PostgreSQL", "Database for most projects"],
-      ["Git", "Version control"],
-    ],
-  },
-  {
-    title: "Apps",
-    items: [
-      ["Figma", "Design and prototyping"],
-      ["Notion", "Notes and documentation"],
-    ],
-  },
-  {
-    title: "Services",
-    items: [
-      ["Vercel", "Deployment and hosting"],
-      ["GitHub", "Code hosting and collaboration"],
-      ["Cloudflare", "DNS and CDN"],
-    ],
-  },
-] as const;
+// export const uses = [
+//   {
+//     title: "Editor & Terminal",
+//     items: [
+//       ["VS Code", "Primary code editor"],
+//       ["Terminal", "macOS terminal"],
+//       ["Geist Mono", "Monospace font for editor and terminal"],
+//     ],
+//   },
+//   {
+//     title: "Development",
+//     items: [
+//       ["TypeScript", "Primary language for everything"],
+//       ["React / Next.js", "Frontend framework of choice"],
+//       ["Tailwind CSS", "Utility-first CSS framework"],
+//       ["Node.js", "Server-side runtime"],
+//       ["PostgreSQL", "Database for most projects"],
+//       ["Git", "Version control"],
+//     ],
+//   },
+//   {
+//     title: "Apps",
+//     items: [
+//       ["Figma", "Design and prototyping"],
+//       ["Notion", "Notes and documentation"],
+//     ],
+//   },
+//   {
+//     title: "Services",
+//     items: [
+//       ["Vercel", "Deployment and hosting"],
+//       ["GitHub", "Code hosting and collaboration"],
+//       ["Cloudflare", "DNS and CDN"],
+//     ],
+//   },
+// ] as const;
 
 export const skillGroups = [
   ["Languages", "JavaScript, TypeScript, Python, HTML, CSS"],
