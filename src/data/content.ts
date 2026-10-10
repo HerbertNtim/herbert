@@ -254,25 +254,25 @@ export const uses = [
 ] as const;
 
 export const skillGroups = [
-  ["Languages", "JavaScript, TypeScript, Go, Rust, HTML, CSS"],
+  ["Languages", "JavaScript, TypeScript, Python, HTML, CSS"],
   [
     "Frontend",
-    "React, Next.js, React Native, Vite, Tailwind CSS, TanStack Start, TanStack Query, Redux, Zustand",
+    "React, Next.js, React Native, Vite, Tailwind CSS, Redux & Redux Toolkit, Zustand",
   ],
   [
     "Backend",
-    "Node.js, Bun, Hono, Elysia, GraphQL, REST APIs, WebSocket, PostgreSQL, Redis, MongoDB, Drizzle ORM",
+    "Node.js, GraphQL, REST APIs, WebSocket, PostgreSQL, Redis, MongoDB, Prisma ORM",
   ],
   [
     "AI",
-    "Vercel AI SDK, OpenAI API, Anthropic API, MCP (Model Context Protocol), AI Agents, LLM Integration",
+    "Pandas, Numpy, Matplotlib, Scikit-Learn, TensorFlow, Google Colab, Jupyter Notebook",
   ],
   [
     "Cloud & Infrastructure",
-    "Docker, Fly.io, Cloudflare, Vercel, GitHub Actions, CI/CD",
+    "Docker, AWS, Cloudflare, Vercel, GitHub Actions, CI/CD",
   ],
-  ["Testing", "Vitest, Jest, Playwright, Detox"],
-  ["Dev Tools", "Git, Biome, Better Auth"],
+  // ["Testing", "Vitest, Jest"],
+  ["Dev Tools", "Git, Clerk Auth"],
 ] as const;
 
 export const resumeExperience = [

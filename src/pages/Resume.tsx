@@ -1,10 +1,6 @@
 import { PageMeta } from "../components/PageMeta";
 import { TextLink } from "../components/TextLink";
-import {
-  resumeExperience,
-  resumeProjects,
-  skillGroups,
-} from "../data/content";
+import { resumeExperience, resumeProjects, skillGroups } from "../data/content";
 
 export function Resume() {
   return (
@@ -47,6 +43,12 @@ export function Resume() {
           >
             herbertntim15@gmail.com
           </a>
+          <a
+            href="mailto:herbertntim2023@gmail.com"
+            className="link-hover text-fg-muted transition-colors hover:text-fg"
+          >
+            herbertntim2023@gmail.com
+          </a>
         </div>
         <div className="mt-2 flex flex-wrap gap-x-6 gap-y-2 text-[13px]">
           <TextLink href="https://www.hntim.com">hntim.com</TextLink>
@@ -64,15 +66,13 @@ export function Resume() {
           Professional Summary
         </h2>
         <p className="text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
-          Senior full-stack engineer with 7+ years of experience in TypeScript,
-          React, Node.js, and Go. Previously the sole engineer on Spaceship
-          domain search at Namecheap, helping sell 3M+ domains. Creator of 33
-          JavaScript Concepts (66K+ GitHub stars, GitHub Top Open Source Project
-          of 2018). Currently building Strait, an agentic workflow orchestration
-          platform with SDKs in five languages, MCP servers, and a CLI. Also
-          built Shopwyse, a multi-tenant retail ERP, and Polyglot, an
-          AI-powered writing tool. Open source contributor to Better Auth,
-          Node.js, and TanStack.
+          Full-Stack Engineer and Data Science Practitioner with experience
+          building scalable web applications, workflow automation tools, and
+          data-driven solutions. Proficient in TypeScript, React, Next.js, and
+          Python, with a focus on developing reliable software and solving
+          real-world problems. Exploring machine learning and deep learning
+          through hands-on projects, with an interest in turning data into
+          practical insights and intelligent applications.
         </p>
       </section>
 
