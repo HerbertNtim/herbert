@@ -223,42 +223,42 @@ export const faqs = [
   },
 ];
 
-export const uses = [
-  {
-    title: "Editor & Terminal",
-    items: [
-      ["VS Code", "Primary code editor"],
-      ["Terminal", "macOS terminal"],
-      ["Geist Mono", "Monospace font for editor and terminal"],
-    ],
-  },
-  {
-    title: "Development",
-    items: [
-      ["TypeScript", "Primary language for everything"],
-      ["React / Next.js", "Frontend framework of choice"],
-      ["Tailwind CSS", "Utility-first CSS framework"],
-      ["Node.js", "Server-side runtime"],
-      ["PostgreSQL", "Database for most projects"],
-      ["Git", "Version control"],
-    ],
-  },
-  {
-    title: "Apps",
-    items: [
-      ["Figma", "Design and prototyping"],
-      ["Notion", "Notes and documentation"],
-    ],
-  },
-  {
-    title: "Services",
-    items: [
-      ["Vercel", "Deployment and hosting"],
-      ["GitHub", "Code hosting and collaboration"],
-      ["Cloudflare", "DNS and CDN"],
-    ],
-  },
-] as const;
+// export const uses = [
+//   {
+//     title: "Editor & Terminal",
+//     items: [
+//       ["VS Code", "Primary code editor"],
+//       ["Terminal", "macOS terminal"],
+//       ["Geist Mono", "Monospace font for editor and terminal"],
+//     ],
+//   },
+//   {
+//     title: "Development",
+//     items: [
+//       ["TypeScript", "Primary language for everything"],
+//       ["React / Next.js", "Frontend framework of choice"],
+//       ["Tailwind CSS", "Utility-first CSS framework"],
+//       ["Node.js", "Server-side runtime"],
+//       ["PostgreSQL", "Database for most projects"],
+//       ["Git", "Version control"],
+//     ],
+//   },
+//   {
+//     title: "Apps",
+//     items: [
+//       ["Figma", "Design and prototyping"],
+//       ["Notion", "Notes and documentation"],
+//     ],
+//   },
+//   {
+//     title: "Services",
+//     items: [
+//       ["Vercel", "Deployment and hosting"],
+//       ["GitHub", "Code hosting and collaboration"],
+//       ["Cloudflare", "DNS and CDN"],
+//     ],
+//   },
+// ] as const;
 
 export const skillGroups = [
   ["Languages", "JavaScript, TypeScript, Python, HTML, CSS"],
@@ -366,8 +366,8 @@ export const resumeProjects = [
     meta: "Machine Learning",
     aside: "Classification",
     bullets: [
-      "Developing a predictive classification model using health-related data to explore patterns associated with heart disease.",
-      "Applying data preprocessing, feature analysis, model training, and evaluation techniques.",
+      "Developed a predictive classification model using health-related data to explore patterns associated with heart disease.",
+      "Applied data preprocessing, feature analysis, model training, and evaluation techniques.",
     ],
   },
   {
@@ -376,8 +376,8 @@ export const resumeProjects = [
     meta: "Machine Learning",
     aside: "Regression",
     bullets: [
-      "Building a regression model to estimate bulldozer sale prices from historical auction data.",
-      "Applying data cleaning, feature engineering, and model evaluation to a real-world price prediction problem.",
+      "Built a regression model to estimate bulldozer sale prices from historical auction data.",
+      "Applied data cleaning, feature engineering, and model evaluation to a real-world price prediction problem.",
     ],
   },
 ];

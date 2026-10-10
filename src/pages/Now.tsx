@@ -1,5 +1,4 @@
 import { PageMeta } from "../components/PageMeta";
-import { TextLink } from "../components/TextLink";
 
 export function Now() {
   return (
@@ -81,15 +80,6 @@ export function Now() {
           </h2>
 
           <div className="flex flex-col gap-4 text-[16px] leading-[1.75] text-fg-secondary sm:text-[15px] sm:leading-[1.8]">
-            <p>
-              Building{" "}
-              <TextLink href="https://readora-voice.vercel.app/">
-                Readora Voice
-              </TextLink>
-              , an AI-powered voice application, while continuing to develop
-              projects that help me apply what I learn.
-            </p>
-
             <p>
               I&apos;m also improving my portfolio and working on projects that
               demonstrate my abilities in full-stack development and data
