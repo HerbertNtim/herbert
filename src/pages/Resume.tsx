@@ -187,7 +187,7 @@ export function Resume() {
               2020 to 2024
             </span>
           </div>
-          <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+          {/* <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
             <p className="text-[15px] font-medium text-fg">
               Kwame Nkrumah University of Science and Technology{" "}
               <span className="resume-muted font-normal text-fg-tertiary">
@@ -197,7 +197,7 @@ export function Resume() {
             <span className="resume-muted shrink-0 font-mono text-[11px] tracking-wider text-fg-tertiary">
               Starting 2026/2027 Academic Year
             </span>
-          </div>
+          </div> */}
         </div>
       </section>
 
