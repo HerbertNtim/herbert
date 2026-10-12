@@ -141,14 +141,14 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Refine", "Vite"],
     home: true,
   },
-  {
-    name: "hntim.com",
-    href: "https://hntim.com",
-    label: "Personal",
-    description:
-      "This portfolio website. Built with Vite & React.JS, Tailwind CSS, and deployed on Cloudflare Workers.",
-    tags: ["Vite & React.JS", "TypeScript", "Tailwind CSS"],
-  },
+  // {
+  //   name: "hntim.com",
+  //   href: "https://hntim.com",
+  //   label: "Personal",
+  //   description:
+  //     "This portfolio website. Built with Vite & React.JS, Tailwind CSS, and deployed on Cloudflare Workers.",
+  //   tags: ["Vite & React.JS", "TypeScript", "TailwindCSS"],
+  // },
 ];
 
 export const homeExperience = [
